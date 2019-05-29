@@ -1,0 +1,35 @@
+
+[general]
+name=Test
+qgisMinimumVersion=3.4
+description=This plugin adds a new processing provider for Tests
+version=0.1
+author=3liz
+email=infos@3liz.com
+
+about=Tests algorithms
+
+tracker=https://github.com/3liz/py-qgis-wp
+repository=https://github.com/3liz/py-qgis-wp
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Is compatible with WPS server
+wps=True
+

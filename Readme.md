@@ -1,4 +1,4 @@
-
+# Installation de LIZMAP, Postgresql et Qgis server sur android
 
 * Vérifier que ton smartphone est en 64 bits : app [droidinfo](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo&hl=fr)
 

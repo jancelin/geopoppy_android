@@ -6,7 +6,7 @@
 
 ![adapter3](https://github.com/jancelin/geopoppy_android/blob/master/image/IMG_20190613_222233_507.jpg)
 
-* [télécharger l'image](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
+* [télécharger l'image Debian pour Userland](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
 
 * installer app [connectBot](https://play.google.com/store/apps/details?id=org.connectbot)
 

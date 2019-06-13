@@ -10,7 +10,7 @@
 
 * installer app userland et ouvrir
 
-* aller dans l'onglet systèmes de fichiers et compléter
+* aller dans l'onglet systèmes de fichiers et compléter (adapter en fonction de la version téléchargée)
 
 ![adapter1](https://github.com/jancelin/geopoppy_android/blob/master/image/Screenshot_20190522-132931.png)
 

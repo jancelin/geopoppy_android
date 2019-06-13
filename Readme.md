@@ -28,7 +28,9 @@
 
 ```sh /sdcard/geopoppy/conf/start.sh```
 
-* attendre que ngninx, PHP, postgres et qgis server soit démarrés ( qgis reste en log debug), Ne Pas fermer la session !
+* attendre que  postgresql, nginx, PHP, et qgis server soit démarrés ( qgis reste en log debug), 
+
+### Ne Pas fermer la session !
 
 * ouvrir firefox et adresse:
 

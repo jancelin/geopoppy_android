@@ -2,7 +2,7 @@
 
 * Vérifier que ton smartphone est en 64 bits : app droidinfo
 
-* [Téléchager ce dépot sur le smartphone](https://github.com/jancelin/geopoppy_android/archive/master.zip) et le décompresser dans un dossier geopoppy à la racine de l'utilisateur (à créer avant).
+* [Téléchager ce dépot sur le smartphone](https://github.com/jancelin/geopoppy_android/archive/master.zip) et décompresser les dossiers dans un nouveau dossier geopoppy créé à la racine de l'utilisateur.
 
 * [télécharger l'image](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
 

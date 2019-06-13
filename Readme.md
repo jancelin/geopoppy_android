@@ -6,11 +6,11 @@
 
 ![adapter3](https://github.com/jancelin/geopoppy_android/blob/master/image/IMG_20190613_222233_507.jpg)
 
-* [télécharger l'image Debian pour Userland](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
+* [télécharger sur le smartphone l'image Userland](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
 
 * installer app [connectBot](https://play.google.com/store/apps/details?id=org.connectbot)
 
-* installer app [userland](https://play.google.com/store/apps/details?id=tech.ula) et ouvrir
+* installer app [Userland](https://play.google.com/store/apps/details?id=tech.ula) et ouvrir
 
 * aller dans l'onglet systèmes de fichiers et compléter (adapter en fonction de la version téléchargée)
 

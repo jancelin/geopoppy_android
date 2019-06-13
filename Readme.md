@@ -4,6 +4,8 @@
 
 * [Téléchager ce dépot sur le smartphone](https://github.com/jancelin/geopoppy_android/archive/master.zip) et décompresser les dossiers dans un nouveau dossier geopoppy créé à la racine de l'utilisateur.
 
+![adapter3](https://github.com/jancelin/geopoppy_android/blob/master/image/IMG_20190613_222233_507.jpg)
+
 * [télécharger l'image](https://github.com/jancelin/geopoppy_android/releases/download/geopoppy_android_0.2/geopoppy0_2-debian-rootfs.tar.gz)
 
 * installer app connectBot

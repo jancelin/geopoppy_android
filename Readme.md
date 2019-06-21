@@ -1,4 +1,4 @@
-# Installation de Lizmap, Postgresql et Qgis server sur android
+# Deploiement Geopoppy sur android:  Lizmap, Postgresql et Qgis server
 
 * Vérifier que ton smartphone est en 64 bits : app [droidinfo](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo&hl=fr)
 

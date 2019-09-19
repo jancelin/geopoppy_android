@@ -2,7 +2,7 @@
 
 * Vérifier que ton smartphone est en 64 bits : app [droidinfo](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo&hl=fr)
 
-* [Téléchager ce dépot sur le smartphone](https://github.com/jancelin/geopoppy_android/archive/master.zip) et décompresser les dossiers dans un nouveau dossier geopoppy créé à la racine de l'utilisateur.
+* [Téléchager ce dépot sur le smartphone](https://github.com/jancelin/geopoppy_android/archive/master.zip) et décompresser les dossiers dans un nouveau dossier geopoppy créé dans Android/data/tech.ula/files/storage.
 
 ![adapter3](https://github.com/jancelin/geopoppy_android/blob/master/image/IMG_20190613_222233_507.jpg)
 
@@ -28,7 +28,7 @@
 
 * Lancer le script de démarrage :
 
-```sh /sdcard/geopoppy/conf/start.sh```
+```sh /storage/internal/geopoppy/conf/start.sh```
 
 * attendre que  postgresql, nginx, PHP, et qgis server soit démarrés ( qgis reste en log debug), 
 

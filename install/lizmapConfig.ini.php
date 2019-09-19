@@ -43,6 +43,6 @@ relativeWMSPath=true
 
 [repository:demo]    
 label=demo
-path="/sdcard/geopoppy/qgis"
+path="/storage/internal/geopoppy/qgis"
 allowUserDefinedThemes=1
 

@@ -1,10 +1,10 @@
 #!/bin/sh 
 
 #Nginx
-cp /sdcard/geopoppy/install/default /etc/nginx/sites-enabled/default
+cp /storage/internal/geopoppy/install/default /etc/nginx/sites-enabled/default
         
 #PHP-FPM
-cp /sdcard/geopoppy/install/php.ini /etc/php/7.3/fpm/php.ini
+cp /storage/internal/geopoppy/install/php.ini /etc/php/7.3/fpm/php.ini
 #ln -s /usr/lib/libc-client.a /usr/lib/aarch64-linux-gnu/libc-client.a
 #ln -s /usr/lib/libc-client.a /usr/lib/arm-linux-gnueabihf/libc-client.a
 
@@ -17,7 +17,7 @@ sudo service php7.3-fpm start
 #lizmap_git=https://github.com/3liz/lizmap-web-client.git
 #git clone --branch $lizmap_version --depth=1  $lizmap_git lizmap &&
 
-VERSION=3.2.3
+VERSION=3.3.0
 lizmap_wps_version=master
 lizmap_wps_git=https://github.com/3liz/lizmap-wps-web-client-module.git 
 mkdir /www
@@ -32,8 +32,8 @@ mv lizmap-wps/wps /www/lizmap-web-client-$VERSION/lizmap/lizmap-modules/wps
 rm -rf lizmap-wps
 
 cd /www/lizmap-web-client-$VERSION
-cp /sdcard/geopoppy/install/lizmapConfig.ini.php lizmap/var/config/lizmapConfig.ini.php
-cp /sdcard/geopoppy/install/localconfig.ini.php lizmap/var/config/localconfig.ini.php
+cp /storage/internal/geopoppy/install/lizmapConfig.ini.php lizmap/var/config/lizmapConfig.ini.php
+cp /storage/internal/geopoppy/install/localconfig.ini.php lizmap/var/config/localconfig.ini.php
 cp lizmap/var/config/profiles.ini.php.dist     lizmap/var/config/profiles.ini.php
 php lizmap/install/installer.php
 sudo sh lizmap/install/set_rights.sh www-data www-data
@@ -70,8 +70,8 @@ rm -rf /root/.cache /root/.ccache
 
 
 #postgresql
-cp /sdcard/geopoppy/install/postgresql.conf /etc/postgresql/9.6/main/
-cp /sdcard/geopoppy/install/pg_hba.conf /etc/postgresql/9.6/main/
+cp /storage/internal/geopoppy/install/postgresql.conf /etc/postgresql/9.6/main/
+cp /storage/internal/geopoppy/install/pg_hba.conf /etc/postgresql/9.6/main/
 
 service postgresql restart
 
@@ -92,7 +92,7 @@ service postgresql restart
       \q
 
       createdb -O geopoppy -T template_postgis geopoppy;
-      psql -U postgres -d geopoppy -f /sdcard/geopoppy/db/geopoppy.sql
+      psql -U postgres -d geopoppy -f /storage/internal/geopoppy/db/geopoppy.sql
       \q
       exit
 

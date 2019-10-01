@@ -3,6 +3,9 @@
 # This script is meant for quick & easy install via:
 #   $ curl -fsSL https://get.docker.com/rootless -o get-docker.sh
 #   $ sh get-docker.sh
+
+#curl -fsSL https://raw.githubusercontent.com/jancelin/geopoppy_android/dev/get-docker.sh | SKIP_IPTABLES=1 sh
+
 #
 # NOTE: Make sure to verify the contents of the script
 #       you downloaded matches the contents of install.sh
